@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    @apply bg-romantic-100 dark:bg-romantic-900 text-gray-900 dark:text-gray-100;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .romantic-gradient {
+    @apply bg-gradient-to-br from-romantic-50 via-pink-100 to-romantic-100;
+  }
+  
+  .romantic-gradient-dark {
+    @apply bg-gradient-to-br from-gray-900 via-gray-800 to-romantic-900;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-romantic-500/20;
+  }
+  
+  .text-romantic {
+    @apply text-romantic-500;
+  }
+  
+  .btn-romantic {
+    @apply bg-romantic-500 hover:bg-romantic-600 text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200;
+  }
+  
+  .image-overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent;
+  }
+  
+  .hero-text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .backdrop-blur-subtle {
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+  }
+  
+  .glass-effect {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+  
+  /* Image loading and optimization */
+  .image-container {
+    @apply relative overflow-hidden;
+  }
+  
+  .image-loading {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+  }
+  
+  @keyframes loading {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+  
+  /* Smooth image transitions */
+  .image-fade-in {
+    @apply opacity-0 transition-opacity duration-300 ease-in-out;
+  }
+  
+  .image-fade-in.loaded {
+    @apply opacity-100;
+  }
+  
+  /* Background image optimizations */
+  .bg-image-optimized {
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+  }
+  
+  /* Smooth scrolling improvements */
+  .smooth-scroll {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Prevent background image jumping during scroll */
+  .bg-fixed-alternative {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .bg-fixed-alternative::before {
+    content: '';
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    right: -10%;
+    bottom: -10%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+  }
+}

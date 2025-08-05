@@ -1,0 +1,104 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="columnGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F5F5DC;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5F5DC;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sunGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:0.8" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="800" height="600" fill="url(#skyGradient)"/>
+  
+  <!-- Sun -->
+  <circle cx="650" cy="100" r="60" fill="url(#sunGradient)" opacity="0.9"/>
+  
+  <!-- Mountains in background -->
+  <polygon points="0,400 200,300 400,350 600,280 800,320 800,600 0,600" fill="#8B7355" opacity="0.6"/>
+  <polygon points="100,450 300,350 500,380 700,320 800,340 800,600 0,600" fill="#A0522D" opacity="0.4"/>
+  
+  <!-- Greek temple/academy building -->
+  <g transform="translate(150, 200)">
+    <!-- Temple base -->
+    <rect x="0" y="180" width="500" height="40" fill="#D2B48C"/>
+    
+    <!-- Steps -->
+    <rect x="-20" y="200" width="540" height="15" fill="#C19A6B"/>
+    <rect x="-10" y="215" width="520" height="15" fill="#B8860B"/>
+    
+    <!-- Columns -->
+    <rect x="20" y="60" width="30" height="120" fill="url(#columnGradient)"/>
+    <rect x="80" y="60" width="30" height="120" fill="url(#columnGradient)"/>
+    <rect x="140" y="60" width="30" height="120" fill="url(#columnGradient)"/>
+    <rect x="200" y="60" width="30" height="120" fill="url(#columnGradient)"/>
+    <rect x="260" y="60" width="30" height="120" fill="url(#columnGradient)"/>
+    <rect x="320" y="60" width="30" height="120" fill="url(#columnGradient)"/>
+    <rect x="380" y="60" width="30" height="120" fill="url(#columnGradient)"/>
+    <rect x="440" y="60" width="30" height="120" fill="url(#columnGradient)"/>
+    
+    <!-- Column capitals -->
+    <rect x="15" y="50" width="40" height="15" fill="#F5F5DC"/>
+    <rect x="75" y="50" width="40" height="15" fill="#F5F5DC"/>
+    <rect x="135" y="50" width="40" height="15" fill="#F5F5DC"/>
+    <rect x="195" y="50" width="40" height="15" fill="#F5F5DC"/>
+    <rect x="255" y="50" width="40" height="15" fill="#F5F5DC"/>
+    <rect x="315" y="50" width="40" height="15" fill="#F5F5DC"/>
+    <rect x="375" y="50" width="40" height="15" fill="#F5F5DC"/>
+    <rect x="435" y="50" width="40" height="15" fill="#F5F5DC"/>
+    
+    <!-- Pediment (triangular roof) -->
+    <polygon points="0,50 250,10 500,50" fill="#F5F5DC"/>
+    <polygon points="50,45 450,45 250,15" fill="#E6E6FA" opacity="0.8"/>
+  </g>
+  
+  <!-- Philosophers gathering (simplified figures) -->
+  <g transform="translate(200, 350)">
+    <!-- Central figure (Plato) -->
+    <circle cx="200" cy="30" r="15" fill="#FDBCB4"/>
+    <rect x="190" y="45" width="20" height="40" fill="#8B4513" rx="3"/>
+    <rect x="185" y="85" width="30" height="25" fill="#FFFFFF" rx="5"/>
+    
+    <!-- Surrounding figures -->
+    <circle cx="150" cy="35" r="12" fill="#FDBCB4"/>
+    <rect x="143" y="47" width="14" height="30" fill="#4B0082" rx="2"/>
+    
+    <circle cx="250" cy="35" r="12" fill="#FDBCB4"/>
+    <rect x="243" y="47" width="14" height="30" fill="#8B0000" rx="2"/>
+    
+    <circle cx="120" cy="45" r="10" fill="#FDBCB4"/>
+    <rect x="115" y="55" width="10" height="25" fill="#006400" rx="2"/>
+    
+    <circle cx="280" cy="45" r="10" fill="#FDBCB4"/>
+    <rect x="275" y="55" width="10" height="25" fill="#191970" rx="2"/>
+    
+    <circle cx="100" cy="55" r="8" fill="#FDBCB4"/>
+    <rect x="96" y="63" width="8" height="20" fill="#8B4513" rx="1"/>
+    
+    <circle cx="300" cy="55" r="8" fill="#FDBCB4"/>
+    <rect x="296" y="63" width="8" height="20" fill="#2F4F4F" rx="1"/>
+  </g>
+  
+  <!-- Olive trees -->
+  <g transform="translate(50, 300)">
+    <rect x="0" y="40" width="8" height="60" fill="#8B4513"/>
+    <circle cx="4" cy="30" r="25" fill="#228B22" opacity="0.8"/>
+    <circle cx="4" cy="25" r="20" fill="#32CD32" opacity="0.9"/>
+  </g>
+  
+  <g transform="translate(650, 320)">
+    <rect x="0" y="40" width="8" height="50" fill="#8B4513"/>
+    <circle cx="4" cy="30" r="20" fill="#228B22" opacity="0.8"/>
+    <circle cx="4" cy="25" r="15" fill="#32CD32" opacity="0.9"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <text x="400" y="550" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513" opacity="0.7">Συμπόσιον - El Banquete de Platón</text>
+</svg>
