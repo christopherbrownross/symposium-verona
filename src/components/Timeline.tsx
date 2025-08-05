@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import { Calendar, BookOpen, Heart } from 'lucide-react';
+import { BookOpen, Heart } from 'lucide-react';
 import { timelineEvents } from '@/content/rj';
 
 export const Timeline: React.FC = () => {
