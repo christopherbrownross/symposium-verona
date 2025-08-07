@@ -67,7 +67,7 @@ export const imageUrls = {
   timeline: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_School_of_Athens.jpg/1920px-The_School_of_Athens.jpg',
   
   // Symposium participants - Ancient Greek sculptures
-  fedro: 'https://upload.wikimedia.org/wikipedia/commons/7/7d/Head_Platon_Glyptothek_Munich_548.jpg',
+  fedro: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2LB4FUVtlXTEi_d9RZsN-83yDEW82LaqWiPWyqIah0IU30C6JBJ-kyfT56C9XdI4Q0x8&usqp=CAU',
   pausanias: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bust_Lysander_Musei_Capitolini_MC1861.jpg/400px-Bust_Lysander_Musei_Capitolini_MC1861.jpg',
   eriximaco: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Hippocrates_pushkin02.jpg/400px-Hippocrates_pushkin02.jpg',
   aristofanes: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Aristophanes_Musei_Capitolini_MC1166.jpg/400px-Aristophanes_Musei_Capitolini_MC1166.jpg',
