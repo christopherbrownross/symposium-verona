@@ -16,7 +16,7 @@ export const speakers: Speaker[] = [
     quote: "No hay mayor bendición para un joven que un amante virtuoso, ni para un amante que un joven amado virtuoso.",
     color: "from-purple-400 to-pink-400",
     order: 1,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Herma_of_Pericles_Altemps_Inv8575.jpg/400px-Herma_of_Pericles_Altemps_Inv8575.jpg"
+    image: "/assets/Fedro.webp"
   },
   {
     name: "Pausanias",
@@ -25,7 +25,7 @@ export const speakers: Speaker[] = [
     quote: "El amor noble es aquel que conduce a la virtud y hace mejores tanto al amante como al amado.",
     color: "from-blue-400 to-purple-400",
     order: 2,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bust_Lysander_Musei_Capitolini_MC1861.jpg/400px-Bust_Lysander_Musei_Capitolini_MC1861.jpg"
+    image: "/assets/Pausanias.webp"
   },
   {
     name: "Erixímaco",
@@ -34,7 +34,7 @@ export const speakers: Speaker[] = [
     quote: "El amor es el médico de todas las enfermedades, pues donde hay armonía, hay salud.",
     color: "from-green-400 to-blue-400",
     order: 3,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Hippocrates_pushkin02.jpg/400px-Hippocrates_pushkin02.jpg"
+    image: "/assets/Eriximaco.webp"
   },
   {
     name: "Aristófanes",
@@ -43,7 +43,7 @@ export const speakers: Speaker[] = [
     quote: "El amor es el nombre para nuestro anhelo de completitud, para nuestro deseo de ser uno.",
     color: "from-yellow-400 to-orange-400",
     order: 4,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Aristophanes_Musei_Capitolini_MC1166.jpg/400px-Aristophanes_Musei_Capitolini_MC1166.jpg"
+    image: "/assets/Aristofanes.webp"
   },
   {
     name: "Agatón",
@@ -52,7 +52,7 @@ export const speakers: Speaker[] = [
     quote: "El Amor es el más feliz de los dioses porque es el más bello y el mejor.",
     color: "from-pink-400 to-rose-400",
     order: 5,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Herma_of_an_unknown_Greek_-_Palazzo_Altemps_-_Rome_2016.jpg/400px-Herma_of_an_unknown_Greek_-_Palazzo_Altemps_-_Rome_2016.jpg"
+    image: "/assets/Agaton.webp"
   },
   {
     name: "Sócrates/Diotima",
@@ -61,7 +61,7 @@ export const speakers: Speaker[] = [
     quote: "El amor no es ni bello ni feo, ni bueno ni malo, sino algo intermedio que nos conduce hacia lo divino.",
     color: "from-indigo-400 to-purple-400",
     order: 6,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/400px-Socrates_Louvre.jpg"
+    image: "/assets/Socrates.webp"
   },
   {
     name: "Alcibíades",
@@ -70,7 +70,7 @@ export const speakers: Speaker[] = [
     quote: "Sócrates es el único hombre ante quien siento vergüenza, porque solo él me hace ver lo que realmente soy.",
     color: "from-red-400 to-pink-400",
     order: 7,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Alcibiades_Musei_Capitolini_MC1160.jpg/400px-Alcibiades_Musei_Capitolini_MC1160.jpg"
+    image: "/assets/Alcibiades.webp"
   }
 ];
 
