@@ -1,3 +1,12 @@
+// Import images
+import FedroImg from '../assets/Fedro.webp';
+import PausaniasImg from '../assets/Pausanias.webp';
+import EriximacoImg from '../assets/Eriximaco.webp';
+import AristofanesImg from '../assets/Aristofanes.webp';
+import AgatonImg from '../assets/Agaton.webp';
+import SocratesImg from '../assets/Socrates.webp';
+import AlcibiadesImg from '../assets/Alcibiades.webp';
+
 export interface Speaker {
   name: string;
   thesis: string;
@@ -16,7 +25,7 @@ export const speakers: Speaker[] = [
     quote: "No hay mayor bendición para un joven que un amante virtuoso, ni para un amante que un joven amado virtuoso.",
     color: "from-purple-400 to-pink-400",
     order: 1,
-    image: "/assets/Fedro.webp"
+    image: FedroImg
   },
   {
     name: "Pausanias",
@@ -25,7 +34,7 @@ export const speakers: Speaker[] = [
     quote: "El amor noble es aquel que conduce a la virtud y hace mejores tanto al amante como al amado.",
     color: "from-blue-400 to-purple-400",
     order: 2,
-    image: "/assets/Pausanias.webp"
+    image: PausaniasImg
   },
   {
     name: "Erixímaco",
@@ -34,7 +43,7 @@ export const speakers: Speaker[] = [
     quote: "El amor es el médico de todas las enfermedades, pues donde hay armonía, hay salud.",
     color: "from-green-400 to-blue-400",
     order: 3,
-    image: "/assets/Eriximaco.webp"
+    image: EriximacoImg
   },
   {
     name: "Aristófanes",
@@ -43,7 +52,7 @@ export const speakers: Speaker[] = [
     quote: "El amor es el nombre para nuestro anhelo de completitud, para nuestro deseo de ser uno.",
     color: "from-yellow-400 to-orange-400",
     order: 4,
-    image: "/assets/Aristofanes.webp"
+    image: AristofanesImg
   },
   {
     name: "Agatón",
@@ -52,7 +61,7 @@ export const speakers: Speaker[] = [
     quote: "El Amor es el más feliz de los dioses porque es el más bello y el mejor.",
     color: "from-pink-400 to-rose-400",
     order: 5,
-    image: "/assets/Agaton.webp"
+    image: AgatonImg
   },
   {
     name: "Sócrates/Diotima",
@@ -61,7 +70,7 @@ export const speakers: Speaker[] = [
     quote: "El amor no es ni bello ni feo, ni bueno ni malo, sino algo intermedio que nos conduce hacia lo divino.",
     color: "from-indigo-400 to-purple-400",
     order: 6,
-    image: "/assets/Socrates.webp"
+    image: SocratesImg
   },
   {
     name: "Alcibíades",
@@ -70,7 +79,7 @@ export const speakers: Speaker[] = [
     quote: "Sócrates es el único hombre ante quien siento vergüenza, porque solo él me hace ver lo que realmente soy.",
     color: "from-red-400 to-pink-400",
     order: 7,
-    image: "/assets/Alcibiades.webp"
+    image: AlcibiadesImg
   }
 ];
 
